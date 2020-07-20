@@ -53,15 +53,43 @@ function Head() {
            <Col lg="6" md="6" xl="6" xs="12" sm="12">
              <div className="my">
                <div className="myname"> <br />  
-               <div className="rightinside">  
+               <div className="rightinside"> 
+               <br /> 
                 <center> <b>
                    Which programming language should you learn?
                  </b>
-                 </center>                 
+                 </center>     
+                 <div class="btn-container">
+      <div class="rbtn">
+        <i class="fab fa-instagram"></i>
+      </div>
+
+      <div class="rbtn">
+        <i class="fab fa-facebook"></i>
+      </div>
+
+      <div class="rbtn">
+        <i class="fab fa-twitter"></i>
+      </div>
+    </div>
+         
                     <div class="lsbtn">
                     <b> Click here to find that</b>
                     </div>
-                
+                    <div class="btn-container">
+      <div class="rbtn">
+        <i class="fab fa-instagram"></i>
+      </div>
+
+      <div class="rbtn">
+        <i class="fab fa-facebook"></i>
+      </div>
+
+      <div class="rbtn">
+        <i class="fab fa-twitter"></i>
+      </div>
+    </div>
+         
                    </div>
                </div>
              </div>

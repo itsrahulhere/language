@@ -35,6 +35,17 @@ h1 {
   color: #525252;
 }
 */
+.qselect{
+  margin: 15px 0 5px 10px;
+  padding: 0 10px 0 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #e8eff5 ;
+  width: fit-content;
+  background-color: #26db62;
+  border-radius: 10px ;
+
+}
 .btn-container {
   display: flex;
 }
@@ -51,8 +62,59 @@ h1 {
 }
 
 .rightinside span{
+  display: inline-block;
+
+}
+.qrightinside span{
     display: inline-block;
   
+}
+.qrightinside{
+  padding: 20px;
+  font-size: 25px;
+  height:500px;
+  width: auto;
+  border-radius: 15px;
+    box-shadow: inset -2px -2px 9px rgba(255,255,255,1),
+            inset -2px -2px 12px rgba(255,255,255,0.5),
+            inset 2px 2px 4px rgba(255,255,255,0.1),
+           inset 2px 2px 8px rgba(0,0,0,0.15);
+}
+
+
+.ques{
+  padding: 10px 0 10px 0;
+  
+  color:#3385ff;
+}
+.qsbtn{
+  background: #e8eff5;
+  color: #5c5c5c;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  font-family: ;
+  margin: 20px 35px 10px 35px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 400ms;
+  font-size: 15px;
+  box-shadow: 7px 7px 15px #bbcfda, -4px -4px 13px #fff,
+    inset 4px 4px 8px rgba(209, 217, 230, 0.2),
+    inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.qsbtn:hover {
+  box-shadow: 4px 2px 18px #bbcfda, -4px -4px 13px #fff,
+    inset 6px 6px 16px rgba(209, 217, 230, 0.8),
+    inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+
+  transform: translateY(2px);
 }
 .lsbtn{
   background: #e8eff5;
@@ -60,6 +122,7 @@ h1 {
   height: auto;
   width: auto;
   padding: 5px;
+  font-family: ;
   margin: 10px 50px 10px 50px;
   border-radius: 15px;
   display: flex;
@@ -82,7 +145,8 @@ h1 {
 
   transform: translateY(2px);
 }
-.btn {
+/*
+.rbtn{
   background: #e8eff5;
   height: 60px;
   width: 80px;
@@ -100,7 +164,33 @@ h1 {
 
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
+*/
+.options{
+  margin:5%;
+}
+.btn {
+  background: #e8eff5;
+  height: 60px;
+  width: 80px;
+  margin: 5px 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 400ms;
 
+  box-shadow: 7px 7px 15px #bbcfda, -4px -4px 13px #fff,
+    inset 4px 4px 8px rgba(209, 217, 230, 0.2),
+    inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.rbtn i {
+  font-size: 40px;
+  color: #727272;
+  transition: all 400ms;
+}
 .btn i {
   font-size: 40px;
   color: #727272;
