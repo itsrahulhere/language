@@ -13,12 +13,13 @@ function Q1O1Y() {
       <div className="ques">
         <center><b>Which platform / field?</b></center></div> 
       <div className="options">
-      <div class="qsbtn" ><b>Web</b> </div>
-      <div class="qsbtn" ><b>Big Tech Company</b> </div>
-      <div class="qsbtn" ><b>Mobile</b> </div>
-      <div class="qsbtn" ><b>Gaming</b> </div>
-      <div class="qsbtn" ><b>Don't matter, I just want $$$</b> </div>
+      <div class="newqsbtn" ><b>Web</b> </div>
+      <div class="newqsbtn" ><b>Big Tech Company</b> </div>
+      <div class="newqsbtn" ><b>Mobile</b> </div>
+      <div class="newqsbtn" ><b>Gaming</b> </div>
+      <div class="newqsbtn" ><b>Don't matter, I just want <text style={{color:"#25B779"}}>$$$</text></b> </div>
       </div>
+      <div class="backbtn float-left" ><b style={{color:"#FF4033"}}>Back</b> </div>
       </div>
        </Col>
        </Row>

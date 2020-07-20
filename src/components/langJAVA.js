@@ -1,5 +1,5 @@
 import React from 'react';
-import javascript from './images/javascript.svg';
+import java from './images/java.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Row,Col, Container} from 'reactstrap';
@@ -16,10 +16,11 @@ function LangJS() {
                 <div class="layer">
                 </div>
                   <div class="content">
-                  <p className="langhead">JAVASCRIPT</p>
-                  <div class="image"><img src={javascript} alt={""}  /></div>
+                  <p className="langhead">J</p>
+                  <div class="image"><img src={java} alt={""}  /></div>
                   <div class="details">
-                    <h2><b>Most popular clients-side web scripting language<br /><span>One of the hottest programming language now, due to its increasing popularity as server-side language(node.js)</span></b></h2>
+                    <h2><b>Very popular on all platforms, OS, and devices due to its portability<br />
+                    <span>One of the most in demand and highest paying programing languages</span></b></h2>
                   </div>
                   </div>
                 </div>

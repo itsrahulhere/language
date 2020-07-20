@@ -18,6 +18,7 @@ function Q1O1N() {
       <div class="qsbtn" ><b><center>Learn the hard way but easier to pick up other languages</center></b> </div>
       
       </div>
+      <div class="backbtn float-left" ><b style={{color:"#FF4033"}}>Back</b> </div>
       </div>
        </Col>
        </Row>

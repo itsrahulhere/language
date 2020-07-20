@@ -17,6 +17,7 @@ function Q1O1() {
       <div class="qsbtn" ><b style={{color:"#f5544e"}}>No</b> </div>
      
       </div>
+      <div class="backbtn float-left" ><b style={{color:"#FF4033"}}>Back</b> </div>
       </div>
        </Col>
        </Row>

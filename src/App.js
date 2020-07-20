@@ -42,7 +42,7 @@ function Head() {
                       It all starts with one simple question:   <br /><text style={{color:"#FF5733" }} >Why do you want to learn programming? </text> <br />
                       <br />Hopefully, this web page will help you pick a language that you can start learning right away.
                       <br />  <br />
-                      Source: <a href="http://carlcheo.com/startcoding">http://carlcheo.com/startcoding</a>
+                      Source: <a href="http://carlcheo.com/startcoding" target="_blank" rel="noopener noreferrer" >http://carlcheo.com/startcoding</a>
       
                 </b>
                </div>

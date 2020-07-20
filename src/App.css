@@ -24,6 +24,123 @@ body {
   height: auto;
   margin: 0;
 }
+/* back btn */
+.backbtn{
+  background: #e8eff5;
+  color: #5c5c5c;
+  height: auto;
+  position: absolute;
+  bottom: 15px;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px 15px 10px 25px;
+  border-radius: 15px;
+  display: flex;
+  cursor: pointer;
+  transition: all 400ms;
+  font-size: 15px;
+  box-shadow: 7px 7px 15px #bbcfda, -4px -4px 13px #fff,
+    inset 4px 4px 8px rgba(209, 217, 230, 0.2),
+    inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.backbtn:hover {
+  box-shadow: 4px 2px 18px #bbcfda, -4px -4px 13px #fff,
+    inset 6px 6px 16px rgba(209, 217, 230, 0.8),
+    inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+
+  transform: translateY(2px);
+}
+/* lang card css start */
+
+.testimonials
+{
+  margin: 15px 20px;
+}
+.testimonials .card
+{
+  position: relative;
+  width: 250px;
+  margin: 0 auto;
+  background: #e8eff5;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.testimonials .card .layer
+{
+  z-index: 1; 
+  position: absolute;
+  width: 100%;
+  top: calc(100%  - 2px);
+  height: 100%;
+  left: 0;
+  background: linear-gradient(#03a9f4,#e91ee3);
+  transition: 0.5s;
+}
+.testimonials .card:hover .layer
+{
+ 
+  top: 0;
+}
+.testimonials .card .content
+{
+  position: relative;
+  z-index: 2;
+}
+.testimonials .card .content p
+{
+  font-size: 24px;
+  font-weight: 600;
+  margin: 5px 0 10px 0;
+  font-family: sans-serif;
+  line-height: 24px;
+  color:#FF5733;
+}
+.testimonials .card:hover .content p
+{
+ 
+  color:#fff;
+}
+.testimonials .card .content .image
+{ 
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 0%;
+  overflow: hidden;
+  border: 0px solid #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+.testimonials .card .content .details h2
+{
+  font-size: 15px;
+  margin: 5px 0 0 0;
+  color: #03a9f4;
+}
+.testimonials .card:hover .content .details h2
+{
+  font-size: 15px;
+  color: #fff;
+}
+.testimonials .card .content .details h2 span
+{
+  color:#e91ee3 ;
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  transition: 0.5s;
+}
+.testimonials .card:hover .content .details h2 span
+{
+  
+  color: #fff;
+}
+
+
 /*
 section{
   height:500px;
@@ -283,6 +400,35 @@ h1 {
 
 }
 .qsbtn:hover {
+  box-shadow: 4px 2px 18px #bbcfda, -4px -4px 13px #fff,
+    inset 6px 6px 16px rgba(209, 217, 230, 0.8),
+    inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+
+  transform: translateY(2px);
+}
+.newqsbtn{
+  background: #e8eff5;
+  color: #5c5c5c;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  
+  margin: 12px 35px 12px 35px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 400ms;
+  font-size: 15px;
+  box-shadow: 7px 7px 15px #bbcfda, -4px -4px 13px #fff,
+    inset 4px 4px 8px rgba(209, 217, 230, 0.2),
+    inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.newqsbtn:hover {
   box-shadow: 4px 2px 18px #bbcfda, -4px -4px 13px #fff,
     inset 6px 6px 16px rgba(209, 217, 230, 0.8),
     inset -8px -8px 8px rgba(255, 255, 255, 0.2);

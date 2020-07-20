@@ -21,6 +21,7 @@ function Q1() {
       <div class="qsbtn" ><b>For my kids</b> </div>
       <div class="qsbtn" ><b>To make money</b> </div>
       </div>
+      <div class="backbtn float-left" ><b style={{color:"#FF4033"}}>Back</b> </div>
       </div>
        </Col>
        </Row>

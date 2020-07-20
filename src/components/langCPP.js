@@ -1,5 +1,5 @@
 import React from 'react';
-import javascript from './images/javascript.svg';
+import cpp from './images/c++.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Row,Col, Container} from 'reactstrap';
@@ -16,10 +16,11 @@ function LangJS() {
                 <div class="layer">
                 </div>
                   <div class="content">
-                  <p className="langhead">JAVASCRIPT</p>
-                  <div class="image"><img src={javascript} alt={""}  /></div>
+                  <p className="langhead">J</p>
+                  <div class="image"><img src={cpp} alt={""}  /></div>
                   <div class="details">
-                    <h2><b>Most popular clients-side web scripting language<br /><span>One of the hottest programming language now, due to its increasing popularity as server-side language(node.js)</span></b></h2>
+                  <h2><b>Widely used for developing games, industrail and performance-critical applicatons<br />
+                    <span>Learning C++ is like lerning how to drive car</span></b></h2>
                   </div>
                   </div>
                 </div>
