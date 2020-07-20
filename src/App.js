@@ -16,17 +16,18 @@ function Head() {
 
 
                 <div class="btn-container">
-      <div class="btn">
+                <a href="https://www.instagram.com/itsrahulhere_" style={{color:"#e8eff5"}} target="_blank" rel="noopener noreferrer">
+                <div class="btn">
         <i class="fab fa-instagram"></i>
-      </div>
-
+      </div></a>
+      <a href="https://www.linkedin.com/in/itsrahulhere" style={{color:"#e8eff5"}} target="_blank" rel="noopener noreferrer">
       <div class="btn">
-        <i class="fab fa-facebook"></i>
-      </div>
-
+        <i class="fab fa-linkedin"></i>
+      </div></a>
+      <a href="https://twitter.com/itsrahulhere_" style={{color:"#e8eff5"}} target="_blank" rel="noopener noreferrer" > 
       <div class="btn">
         <i class="fab fa-twitter"></i>
-      </div>
+      </div></a>
     </div>
          
 
@@ -73,16 +74,16 @@ function Head() {
       </div>
     </div>
          
-                    <div class="lsbtn">
+                    <div class="lsbtn" >
                     <b> Click here to find that</b>
                     </div>
-                    <div class="btn-container">
+                    <div class="btn-container" >
       <div class="rbtn">
         <i class="fab fa-instagram"></i>
       </div>
 
       <div class="rbtn">
-        <i class="fab fa-facebook"></i>
+        <i class="fab fa-linkedin"></i>
       </div>
 
       <div class="rbtn">

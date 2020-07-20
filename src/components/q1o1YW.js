@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Row,Col, Container} from 'reactstrap';
-function Q4() {
+function Q1O1Y() {
     return (
       <div className="main">
        <Container>
@@ -11,11 +11,10 @@ function Q4() {
              <div className="qrightinside"> 
              <div className="qselect">Select an option</div>
       <div className="ques">
-        <center><b>How you want to learn</b></center></div> 
+        <center><b>Web</b></center></div> 
       <div className="options">
-      <div class="qsbtn" ><b>Learn the easy way</b> </div>
-      <div class="qsbtn" ><b>Learn the slighty harder way</b> </div>
-      <div class="qsbtn" ><b><center>Learn the hard way but easier to pick up other languages</center></b> </div>
+      <div class="qsbtn" ><b>Frontend</b> </div>
+      <div class="qsbtn" ><b>Backend</b> </div>
       
       </div>
       </div>
@@ -27,5 +26,5 @@ function Q4() {
     );
   }
   
-  export default Q4;
+  export default Q1O1Y;
   
