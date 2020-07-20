@@ -12,9 +12,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
- 
-    <Head />
+    <br />
     <LangJS />
+    <Head />
+  
     <Q1 />
     
     <Q1O1 />  

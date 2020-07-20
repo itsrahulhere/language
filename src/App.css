@@ -25,6 +25,179 @@ body {
   margin: 0;
 }
 /*
+section{
+  height:500px;
+  width: auto;
+
+ background-color: #e8eff5;
+
+}
+img{
+  max-width:40%;
+}
+
+.set{
+   padding: 10px;
+    width: 80%;
+    height: auto;
+  
+}
+
+
+.set div{
+  position: absolute;
+  display: block;
+ 
+}
+.set div:nth-child(1)
+{
+  left: 20%;
+  animation: animate 15s linear infinite;
+  animation-delay: -7s;
+}
+.set div:nth-child(2)
+{
+  left: 40%;
+  animation: animate 20s linear infinite;
+  animation-delay: -5s;
+}
+.set div:nth-child(3)
+{
+  left: 60%;
+  animation: animate 25s linear infinite;
+}
+.set div:nth-child(4)
+{
+  left: 10%;
+  animation: animate 18s linear infinite;
+  animation-delay: -5s;
+}
+
+.set div:nth-child(5)
+{
+  left: 30%;
+  animation: animate 15s linear infinite;
+  animation-delay: -7s;
+}
+.set div:nth-child(6)
+{
+  left: 45%;
+  animation: animate 12s linear infinite;
+ 
+}
+.set div:nth-child(7)
+{
+  left: 65%;
+  animation: animate 14s linear infinite;
+  
+}
+.set div:nth-child(8)
+{
+  left: 75%;
+  animation: animate 22s linear infinite;
+  animation-delay: -4s;
+}
+
+@keyframes animate
+{
+  0%
+  { opacity: 0;
+    top:0%;
+    transform: translateX(20px) rotate(0deg);
+  }
+  10%
+  { opacity: 1;
+  }
+  20%
+  { transform: translateX(-20px) rotate(45deg);
+  }
+  40%
+  { transform: translateX(-20px) rotate(90deg);
+  }
+  60%
+  { transform: translateX(20px) rotate(135deg);
+  }
+  80%
+  { transform: translateX(-20px) rotate(180deg);
+    opacity: 1;
+  }
+  100%
+  {
+    top:80%;
+    opacity: 0;
+    transform: translateX(-20px) rotate(225deg);
+  }
+}
+
+.set2{
+  
+ transform: scale(2) rotateX(180deg);
+  filter: blur(2px);
+}
+
+.set3{
+  transform: scale(0.8) rotateY(180deg);
+  filter: blur(4px);
+
+}
+import ol from "./images/ol.PNG";
+import rl from "./images/rl.PNG";
+
+import yl from "./images/yl.png";
+import bl from "./images/bl.PNG";
+
+
+ <section>
+                   
+                     <div class="set">
+                       <div><img src={yl} alt={" "}/> </div>
+                       <div><img src={rl} alt={" "} /> </div>
+                       <div><img src={ol} alt={" "} /> </div>
+                       <div><img src={bl} alt={" "} /> </div> 
+                       <div><img src={yl} alt={" "} /> </div>
+                       <div><img src={rl} alt={" "} /> </div>
+                       <div><img src={ol} alt={" "} /> </div>
+                       <div><img src={bl} alt={" "} /> </div>
+                     </div>
+                     
+                     <div class="set set2">
+                       <div><img src={yl} alt={" "} /> </div>
+                       <div><img src={rl} alt={" "} /> </div>
+                     
+                       <div><img src={ol} alt={" "} /> </div>
+                       <div><img src={bl} alt={" "} /> </div> 
+                       <div><img src={yl} alt={" "} /> </div>
+                       <div><img src={rl} alt={" "} /> </div>
+                       
+                       <div><img src={ol} alt={" "} /> </div>
+                       <div><img src={bl} alt={" "} /> </div>
+                     </div>
+                     <div class="set set3">
+                       <div><img src={yl} alt={" "} /> </div>
+                       <div><img src={rl} alt={" "} /> </div>
+                      
+                       <div><img src={ol} alt={" "} /> </div>
+                       <div><img src={bl} alt={" "} /> </div> 
+                       <div><img src={yl} alt={" "} /> </div>
+                       <div><img src={rl} alt={" "} /> </div>
+                      
+                       <div><img src={ol} alt={" "} /> </div>
+                       <div><img src={bl} alt={" "}  /> </div>
+                     </div>
+                    </section>
+
+h2{ 
+ 
+  text-align: center;
+   
+  color: #3385ff;
+  margin: 50% 0 0 0;
+  padding: 0;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+/*
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -36,7 +209,7 @@ h1 {
 }
 */
 .qselect{
-  margin: 15px 0 5px 10px;
+  margin: 15px 10px 5px 10px;
   padding: 0 10px 0 10px;
   font-size: 16px;
   font-weight: 500;
@@ -208,3 +381,60 @@ h1 {
 
   transform: translateY(2px);
 }
+
+/* animated button gradient
+
+.abtn{
+  background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
+  border-radius: 30px;
+}
+
+.abtn {
+
+  transform: translate(-0,-0);
+ width: auto;
+ height:auto;
+ text-align: center;
+ padding: 5px 0px 5px 0px;
+ color: #fff;
+ font-size: 18px;
+ 
+ text-decoration: none;
+ font-family: 'Calibri';
+ box-sizing: border-box;
+ background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
+ background-size: 400%;
+ border-radius: 30px;
+
+}
+.abtn:hover {
+ animation: animate 8s linear infinite;
+}
+@keyframes animate {
+ 0% {
+  background-position: 0%;
+ }
+ 100% {
+  background-position: 400%;
+ }
+}
+.abtn:before {
+ content: '';
+ position: absolute;
+ top: -2px;
+ bottom: -2px;
+ right: -2px;
+ left: -2px;
+ z-index: -1;
+ background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
+ background-size: 400%;
+ border-radius: 40px;
+ filter: blur(20px);
+ opacity: 0;
+ transition: 0.5s;
+}
+.abtn:hover:before {
+ filter: blur(20px);
+ opacity: 1;
+ animation: animate 8s linear infinite;
+}*/
