@@ -3,7 +3,7 @@ import kotlin from './images/kotlin.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Row,Col, Container} from 'reactstrap';
-function LangJS() {
+function LangKOTLIN() {
     return (
       <div className="main">
        <Container>
@@ -16,7 +16,7 @@ function LangJS() {
                 <div class="layer">
                 </div>
                   <div class="content">
-                  <p className="langhead">J</p>
+                  <p className="langhead">KOTLIN</p>
                   <div class="image"><img src={kotlin} alt={""}  /></div>
                   <div class="details">
                     <h2><b>Widely used to develop Android application<br /><span>Statically typed, general-purpose programming language with type inference</span></b></h2>
@@ -36,3 +36,5 @@ function LangJS() {
       </div> 
     );
   }
+    
+  export default LangKOTLIN;

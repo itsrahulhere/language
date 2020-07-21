@@ -3,7 +3,7 @@ import swift from './images/swift.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Row,Col, Container} from 'reactstrap';
-function LangJS() {
+function LangSWIFT() {
     return (
       <div className="main">
        <Container>
@@ -16,10 +16,10 @@ function LangJS() {
                 <div class="layer">
                 </div>
                   <div class="content">
-                  <p className="langhead">J</p>
+                  <p className="langhead">SWIFT</p>
                   <div class="image"><img src={swift} alt={""}  /></div>
                   <div class="details">
-                    <h2><b>Powerful and intuitive programming language for macOS, iOS, watchOS, tvOS and beyond<br />
+                    <h2><b>Powerful and intuitive programming language for OS devices and beyond<br />
                     <span>General-purpose programming language built using a modern approach to safety, performance, and software design patterns</span></b></h2>
                   </div>
                   </div>
@@ -38,5 +38,5 @@ function LangJS() {
     );
   }
   
-  export default LangJS;
+  export default LangSWIFT;
   

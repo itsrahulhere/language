@@ -11,12 +11,10 @@ function Q1O1N() {
              <div className="qrightinside"> 
              <div className="qselect">Select an option</div>
       <div className="ques">
-        <center><b>How you want to learn?</b></center></div> 
+        <center><b>Which operating system? </b></center></div> 
       <div className="options">
-      <div class="qsbtn" ><b>Learn the easy way</b> </div>
-      <div class="qsbtn" ><b>Learn the slighty harder way</b> </div>
-      <div class="qsbtn" ><b><center>Learn the hard way but easier to pick up other languages</center></b> </div>
-      
+      <div class="qsbtn" ><b>iOS</b> </div>
+      <div class="qsbtn" ><b>Android</b> </div>
       </div>
       <div class="backbtn float-left" ><b style={{color:"#FF4033"}}>Back</b> </div>
       </div>

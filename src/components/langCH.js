@@ -3,7 +3,7 @@ import csharp from './images/c-sharp.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Row,Col, Container} from 'reactstrap';
-function LangJS() {
+function LangCH() {
     return (
       <div className="main">
        <Container>
@@ -38,5 +38,5 @@ function LangJS() {
     );
   }
   
-  export default LangJS;
+  export default LangCH;
   

@@ -3,7 +3,7 @@ import python from './images/python.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Row,Col, Container} from 'reactstrap';
-function LangJS() {
+function LangPY() {
     return (
       <div className="main">
        <Container>
@@ -37,5 +37,5 @@ function LangJS() {
     );
   }
   
-  export default LangJS;
+  export default LangPY;
   

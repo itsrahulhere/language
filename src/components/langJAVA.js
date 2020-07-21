@@ -3,7 +3,7 @@ import java from './images/java.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Row,Col, Container} from 'reactstrap';
-function LangJS() {
+function LangJAVA() {
     return (
       <div className="main">
        <Container>
@@ -16,7 +16,7 @@ function LangJS() {
                 <div class="layer">
                 </div>
                   <div class="content">
-                  <p className="langhead">J</p>
+                  <p className="langhead">JAVA</p>
                   <div class="image"><img src={java} alt={""}  /></div>
                   <div class="details">
                     <h2><b>Very popular on all platforms, OS, and devices due to its portability<br />
@@ -38,5 +38,5 @@ function LangJS() {
     );
   }
   
-  export default LangJS;
+  export default LangJAVA;
   

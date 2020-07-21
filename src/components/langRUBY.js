@@ -3,7 +3,7 @@ import ruby from './images/ruby.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Row,Col, Container} from 'reactstrap';
-function LangJS() {
+function LangRUBY() {
     return (
       <div className="main">
        <Container>
@@ -16,7 +16,7 @@ function LangJS() {
                 <div class="layer">
                 </div>
                   <div class="content">
-                  <p className="langhead">J</p>
+                  <p className="langhead">RUBY</p>
                   <div class="image"><img src={ruby} alt={""}  /></div>
                   <div class="details">
                     <h2><b>Mostly known for its popular web framework, Ruby on Rails<br /><span>Best for fun and personal projects, startups, and rapid development</span></b></h2>
@@ -37,5 +37,5 @@ function LangJS() {
     );
   }
   
-  export default LangJS;
+  export default LangRUBY;
   

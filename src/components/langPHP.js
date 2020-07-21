@@ -3,7 +3,7 @@ import php from './images/php.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Row,Col, Container} from 'reactstrap';
-function LangJS() {
+function LangPHP() {
     return (
       <div className="main">
        <Container>
@@ -16,8 +16,8 @@ function LangJS() {
                 <div class="layer">
                 </div>
                   <div class="content">
-                  <p className="langhead">J</p>
-                  <div class="image"><img src={php} alt={""}  /></div>
+                  <p className="langhead">PHP</p>
+                  <div class="image"><img src={php} alt={""} style={{margin:"10px 0 0 0"}}  /></div>
                   <div class="details">
                     <h2><b>Suitable for building small and simple sites within a short time frame <br />
                     <span>Supported by almost every web hosting servies with lower price </span></b></h2>
@@ -38,5 +38,5 @@ function LangJS() {
     );
   }
   
-  export default LangJS;
+  export default LangPHP;
   

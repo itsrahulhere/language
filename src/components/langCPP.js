@@ -3,7 +3,7 @@ import cpp from './images/c++.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Row,Col, Container} from 'reactstrap';
-function LangJS() {
+function LangCPP() {
     return (
       <div className="main">
        <Container>
@@ -16,11 +16,11 @@ function LangJS() {
                 <div class="layer">
                 </div>
                   <div class="content">
-                  <p className="langhead">J</p>
+                  <p className="langhead">CPP</p>
                   <div class="image"><img src={cpp} alt={""}  /></div>
                   <div class="details">
                   <h2><b>Widely used for developing games, industrail and performance-critical applicatons<br />
-                    <span>Learning C++ is like lerning how to drive car</span></b></h2>
+                    <span>Learning C++ is like lerning how to drive a car</span></b></h2>
                   </div>
                   </div>
                 </div>
@@ -38,5 +38,5 @@ function LangJS() {
     );
   }
   
-  export default LangJS;
+  export default LangCPP;
   

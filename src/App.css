@@ -1,3 +1,19 @@
+.navbtn{
+  margin: 15px 10px 10px 0;
+  padding: 0 12px 2px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333 ;
+  width: fit-content;
+  border-radius: 25px ;
+
+}
+.navbtn:hover{
+  background-color: #fa6641;
+  color:#fff
+}
+
+
 .my{
   padding:10px;
   width: auto;
@@ -24,6 +40,21 @@ body {
   height: auto;
   margin: 0;
 }
+/* img convert into grey*/
+.logo img {
+  transform: scale(0.8);
+  position: absolute;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+/* Disable grayscale on hover */
+.logo img:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
+
 /* back btn */
 .backbtn{
   background: #e8eff5;
@@ -53,6 +84,96 @@ body {
 
   transform: translateY(2px);
 }
+/* programming languages card css start */
+
+.ptestimonials
+{
+  margin: 15px 2px;
+
+ 
+}
+.ptestimonials .pcard
+{
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  background: #333;
+  height: 250px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.ptestimonials .pcard .player
+{
+  z-index: 1; 
+  position: absolute;
+  width: 100%;
+  top: calc(100%  - 2px);
+  height: 100%;
+  left: 0;
+  background: linear-gradient(#03a9f4,#e91ee3);
+  transition: 0.5s;
+}
+.ptestimonials .pcard:hover .player
+{
+ 
+  top: 0;
+}
+.ptestimonials .pcard .pcontent
+{
+  position: relative;
+  z-index: 2;
+}
+.ptestimonials .pcard .pcontent p
+{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px 0 0px 0;
+  font-family: sans-serif;
+  line-height: 24px;
+  color:#FFf;
+}
+.ptestimonials .pcard:hover .pcontent p
+{
+ 
+  color:#fff;
+}
+.ptestimonials .pcard .pcontent .image
+{ transform: scale(0.6);
+  width: 100px;
+  height: 100px;
+  margin: 0 auto ;
+  border-radius: 0%;
+  overflow: hidden;
+  border: 0px solid #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+.ptestimonials .pcard .pcontent .details h2
+{
+  font-size: 12px;
+  margin: 0px 0 0 0;
+  color: #03a9f4;
+}
+.ptestimonials .pcard:hover .pcontent .details h2
+{
+  font-size: 12px;
+  color: #fff;
+}
+.ptestimonials .pcard .pcontent .details h2 span
+{
+  color:#e91ee3 ;
+  margin: 5px 0 0 0;
+  font-size: 11px;
+  transition: 0.5s;
+}
+.ptestimonials .pcard:hover .pcontent .details h2 span
+{
+  
+  color: #fff;
+}
+
 /* lang card css start */
 
 .testimonials
@@ -339,16 +460,18 @@ h1 {
 .btn-container {
   display: flex;
 }
-.rightinside{
+.rightinside
+{
   padding: 20px;
   font-size: 25px;
   height:500px;
   width: auto;
   border-radius: 15px;
-    box-shadow: inset -2px -2px 9px rgba(255,255,255,1),
-            inset -2px -2px 12px rgba(255,255,255,0.5),
-            inset 2px 2px 4px rgba(255,255,255,0.1),
-           inset 2px 2px 8px rgba(0,0,0,0.15);
+  box-shadow: inset -2px -2px 9px rgba(255,255,255,1),
+              inset -2px -2px 12px rgba(255,255,255,0.5),
+              inset 2px 2px 4px rgba(255,255,255,0.1),
+              inset 2px 2px 8px rgba(0,0,0,0.15);
+  background: #e8eff5;
 }
 
 .rightinside span{
@@ -403,7 +526,7 @@ h1 {
   box-shadow: 4px 2px 18px #bbcfda, -4px -4px 13px #fff,
     inset 6px 6px 16px rgba(209, 217, 230, 0.8),
     inset -8px -8px 8px rgba(255, 255, 255, 0.2);
-
+  color:#00cdac;
   transform: translateY(2px);
 }
 .newqsbtn{
@@ -432,7 +555,7 @@ h1 {
   box-shadow: 4px 2px 18px #bbcfda, -4px -4px 13px #fff,
     inset 6px 6px 16px rgba(209, 217, 230, 0.8),
     inset -8px -8px 8px rgba(255, 255, 255, 0.2);
-
+    color:#00cdac;
   transform: translateY(2px);
 }
 .lsbtn{
@@ -442,7 +565,7 @@ h1 {
   width: auto;
   padding: 5px;
 
-  margin: 10px 50px 10px 50px;
+  margin: 150px 50px 10px 50px;
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -514,11 +637,30 @@ h1 {
   font-size: 40px;
   color: #727272;
   transition: all 400ms;
+
 }
 
-.btn:hover i {
+.btnli:hover i {
   transform: scale(0.96);
+  color: #0e76a8;
 }
+
+.btntw:hover i {
+  transform: scale(0.96);
+  color: #00acee;
+}
+
+.btnig:hover i {
+  transform: scale(0.96);
+  background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  background: radial-gradient(circle at 50% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  /*
+  color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  */}
 
 .btn:hover {
   box-shadow: 4px 2px 18px #bbcfda, -4px -4px 13px #fff,
