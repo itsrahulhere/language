@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Row,Col, Container} from 'reactstrap';
-function Q1O1Y() {
+function Q1O1YWBC() {
     return (
       <div className="main">
        <Container>
@@ -28,5 +28,5 @@ function Q1O1Y() {
     );
   }
   
-  export default Q1O1Y;
+  export default Q1O1YWBC;
   

@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row,Col, Container} from 'reactstrap';
 
 
-function Q1() {
+function Q1O4() {
   
     return (
       <div className="main">
@@ -30,5 +30,5 @@ function Q1() {
     );
   }
   
-  export default Q1;
+  export default Q1O4;
   

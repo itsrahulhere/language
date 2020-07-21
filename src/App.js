@@ -1,5 +1,6 @@
 import React  from 'react';
 import './App.css';
+import Q1 from './components/q1';
 import java from './components/images/java.svg';
 import c from './components/images/c.svg';
 import ch from './components/images/c-sharp.svg';
@@ -12,14 +13,18 @@ import swift from './components/images/swift.svg';
 import ruby from './components/images/ruby.svg';
 import { Col, Row, Container } from 'reactstrap';
 function Head() {
+
     return (
       <div className="heading">
-        <Container>
+    
+              <Container>
          <Row>
            <Col lg="12" md="12" xl="12" xs="12" sm="12">
-           
-          
-           <div className="navbtn float-right" style={{color:"#fff"}}><b>Home</b></div>
+           <div class="wrapper float-left">
+             <span></span>
+        
+           </div>
+           <div className="navbtn float-right" ><b>Home</b></div>
            <div className="navbtn float-right"></div>
            </Col>
 
@@ -35,9 +40,8 @@ function Head() {
                      I am unknown developer </b>
                      <br />  
                 </div>
-
-
-                <div class="btn-container">
+          
+                <div class="btn-container" >
                 <a href="https://www.instagram.com/itsrahulhere_" style={{color:"#e8eff5"}} target="_blank" rel="noopener noreferrer">
                 <div class="btn btnig">
         <i class="fab fa-instagram"></i>
@@ -46,7 +50,7 @@ function Head() {
       <div class="btn btnli">
         <i class="fab fa-linkedin"></i>
       </div></a>
-      <a href="https://twitter.com/itsrahulhere_" style={{color:"#e8eff5"}} target="_blank" rel="noopener noreferrer" > 
+      <a href="https://twitter.com/itsrahulhere_"  style={{color:"#e8eff5"}} target="_blank" rel="noopener noreferrer" > 
       <div class="btn btntw">
         <i class="fab fa-twitter"></i>
       </div></a>
@@ -76,9 +80,9 @@ function Head() {
            <Col lg="6" md="6" xl="6" xs="12" sm="12">
              <div className="my">
                <div className="myname">   
-               <div className="rightinside"> 
-               <br /> 
-                <center> <b>
+               <div className="rightinside" style={{margin:"15px 0 0 0"}}> 
+               
+                <center  style={{margin:"20px 0 0 0"}}> <b>
                    Which programming language should you learn?
                  </b>
                  </center>     
@@ -90,8 +94,8 @@ function Head() {
                    <img src={kotlin} alt="" style={{right:"25%", margin:"55px 0 5px 0"}}  />
                    <img src={javascript} alt="" style={{right:"10%"}} /></div>
          
-                    <div class="lsbtn" >
-                    <b> <center>Click here to find that </center></b>
+                  <div class="lsbtn" onClick={<Q1/>}>
+                    <b style={{fontFamily: "Varela Round"}}> <center>Click here to find that </center></b>
                     </div>
                     <div class="logo">
                     <img src={ruby} alt="" style={{left:"10%"}} />
@@ -111,11 +115,17 @@ function Head() {
    
          </Row>
        </Container>
-
-     
-
-      
-      </div>
+       <Container><Row> 
+         <Col lg="8" md="7" xl="6" xs="12" sm="12">
+        <hr style={{margin:"15px 0 0 10px",border:"1px solid lightgrey"}} /></Col>
+         <Col lg="2" md="7" xl="6" xs="12" sm="12">
+       <div  style={{fontFamily:"Pristina", fontSize:"27px",color:"#4E8EFE",fontWeight:"550"}}>
+         Keep learning! </div>
+         </Col>
+         <Col lg="2" md="6" xl="6" xs="12" sm="12">
+         <hr style={{margin:"15px 10px 0 0px",border:"1px solid lightgrey"}} /></Col>
+          </Row></Container>
+      </div> 
     );
   }
   
