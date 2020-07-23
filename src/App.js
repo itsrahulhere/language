@@ -22,12 +22,10 @@ function Head() {
            <Col lg="12" md="12" xl="12" xs="12" sm="12">
            <div class="wrapper float-left">
              <span></span>
-        
            </div>
            <div className="navbtn float-right" ><b>Home</b></div>
            <div className="navbtn float-right"></div>
            </Col>
-
     </Row>
     </Container>
 
@@ -40,7 +38,6 @@ function Head() {
                      I am unknown developer </b>
                      <br />  
                 </div>
-          
                 <div class="btn-container" >
                 <a href="https://www.instagram.com/itsrahulhere_" style={{color:"#e8eff5"}} target="_blank" rel="noopener noreferrer">
                 <div class="btn btnig">
@@ -55,9 +52,6 @@ function Head() {
         <i class="fab fa-twitter"></i>
       </div></a>
     </div>
-         
-
-
              </div>
              <Row>
              <Col lg="12" md="12" xl="12" xs="12" sm="12">
@@ -69,7 +63,6 @@ function Head() {
                       <br />Hopefully, this web page will help you pick a language that you can start learning right away.
                       <br />  <br />
                       Source: <a href="http://carlcheo.com/startcoding" target="_blank" rel="noopener noreferrer" >http://carlcheo.com/startcoding</a>
-      
                 </b>
                </div>
                
@@ -81,30 +74,25 @@ function Head() {
              <div className="my">
                <div className="myname">   
                <div className="rightinside" style={{margin:"15px 0 0 0"}}> 
-               
                 <center  style={{margin:"20px 0 0 0"}}> <b>
                    Which programming language should you learn?
                  </b>
                  </center>     
-             
                   <div class="logo">
                    <img src={python} alt="" style={{left:"10%"}}/>
                    <img src={java} alt="" style={{left:"25%", margin:"55px 0 5px 0"}}   />
                    <img src={cpp} alt="" style={{left:"40%"}} />
                    <img src={kotlin} alt="" style={{right:"25%", margin:"55px 0 5px 0"}}  />
                    <img src={javascript} alt="" style={{right:"10%"}} /></div>
-         
                   <div class="lsbtn" onClick={<Q1/>}>
                     <b style={{fontFamily: "Varela Round"}}> <center>Click here to find that </center></b>
                     </div>
                     <div class="logo">
                     <img src={ruby} alt="" style={{left:"10%"}} />
-              
                     <img src={c} alt="" style={{left:"25%", margin:"60px 0 0 0"}}/>
                     <img src={php} alt=""  style={{left:"40%", margin:"0 0 0 8px"}} />
                     <img src={ch} alt=""  style={{right:"25%", margin:"60px 0 0 0"}} />
                     <img src={swift} alt="" style={{right:"10%"}} />
-                    
                     </div>
                    </div>
                </div>
