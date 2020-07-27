@@ -1,17 +1,16 @@
 import React,{Component} from 'react';
-import ruby from './images/ruby.svg';
+import java from './images/java.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Q1O1YWBSNN from './q1o1YWBSNN';
 import Appright from '../Appright';
-
-class LangRUBY extends Component {
+import Q1O1YWBC from './q1o1YWBC';
+class LangJAVA extends Component {
   state = {
     visible: true,
-    whichComponentToShow: "LangRUBY"
+    whichComponentToShow: "LangJAVA"
   };
 
   render() {
-    if (this.state.whichComponentToShow === "LangRUBY") {
+    if (this.state.whichComponentToShow === "LangJAVA") {
       return (
       <div className="main">
     
@@ -22,38 +21,39 @@ class LangRUBY extends Component {
                 <div class="layer">
                 </div>
                   <div class="content">
-                  <p className="langhead">RUBY</p>
-                  <div class="image"><img src={ruby} alt={""}  /></div>
+                  <p className="langhead">JAVA</p>
+                  <div class="image"><img src={java} alt={""}  /></div>
                   <div class="details">
-                    <h2><b>Mostly known for its popular web framework, Ruby on Rails<br /><span>Best for fun and personal projects, startups, and rapid development</span></b></h2>
+                    <h2><b>Very popular on all platforms, OS, and devices due to its portability<br />
+                    <span>One of the most in demand and highest paying programing languages</span></b></h2>
                   </div>
                   </div>
                 </div>
               </div>
               
-              <div class="backbtn float-left" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1YWBSNN"})}} ><b style={{color:"#FF4033"}}>Back</b> </div>
+              <div class="backbtn float-left" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1YWBC"})}} ><b style={{color:"#FF4033"}}>Back</b> </div>
               <div class="backbtn float-right" onClick={ () => {this.setState({ whichComponentToShow: "Appright"})}} style={{right:"35px"}} ><b style={{color:"#25B779"}}>Want to do it again</b> </div>
               
              </div>
-          
+        
       <br />
       </div> 
     );
   }
-  
   if (this.state.whichComponentToShow === "Appright") {
     return (
       <div className="main">
         < Appright />
         </div>
     );}
-    if (this.state.whichComponentToShow === "Q1O1YWBSNN") {
+    if (this.state.whichComponentToShow === "Q1O1YWBC") {
       return (
         <div className="main">
-          < Q1O1YWBSNN />
+          < Q1O1YWBC />
           </div>
       );}
 
+
 }}
-  export default LangRUBY;
+  export default LangJAVA;
   
