@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import python from './images/python.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Appright from '../Appright';
 import Q1 from './q1';
 class LangPY extends Component {
   state = {
@@ -29,8 +30,8 @@ class LangPY extends Component {
                 </div>
               </div>
               
-              <div class="backbtn float-left" ><b style={{color:"#FF4033"}}>Back</b> </div>
-              <div class="backbtn float-right" style={{right:"35px"}} onClick={ () => {this.setState({ whichComponentToShow: "Q1"})}} ><b style={{color:"#25B779"}}>Want to do it again</b> </div>
+              <div class="backbtn float-left" onClick={ () => {this.setState({ whichComponentToShow: "Q1"})}}><b style={{color:"#FF4033"}}>Back</b> </div>
+              <div class="backbtn float-right" style={{right:"35px"}} onClick={ () => {this.setState({ whichComponentToShow: "Appright"})}} ><b style={{color:"#25B779"}}>Want to do it again</b> </div>
               
              </div>
              
@@ -39,12 +40,18 @@ class LangPY extends Component {
     );
   }
 
-  if (this.state.whichComponentToShow === "Q1") {
+  if (this.state.whichComponentToShow === "Appright") {
     return (
       <div className="main">
-        < Q1 />
+        < Appright />
         </div>
     );}
+    if (this.state.whichComponentToShow === "Q1") {
+      return (
+        <div className="main">
+          < Q1 />
+          </div>
+      );}
 }} 
   export default LangPY;
   

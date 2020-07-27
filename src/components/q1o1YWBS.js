@@ -13,10 +13,10 @@ function Q1O1YWBS() {
       <div className="ques">
         <center><b>Does your web app idea provide real-time info like twitter or facebook?</b></center></div> 
       <div className="options">
-      <div class="qsbtn" ><b style={{color:"#2dda66"}}>Yes</b> </div>
-      <div class="qsbtn" ><b style={{color:"#f5544e"}}>No</b> </div>
+      <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}}><b style={{color:"#2dda66"}}>Yes</b> </div>
+      <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}}><b style={{color:"#f5544e"}}>No</b> </div>
       </div>
-      <div class="backbtn float-left" ><b style={{color:"#FF4033"}}>Back</b> </div>
+      <div class="backbtn float-left" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}}><b style={{color:"#FF4033"}}>Back</b> </div>
       </div>
        </Col>
        </Row>

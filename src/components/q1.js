@@ -18,7 +18,8 @@ class Q1 extends Component {
     if (this.state.whichComponentToShow === "Q1") {
       return (
       <div className="main">
-             <div className="qrightinside"> 
+       
+             <div className="rightinside"> 
              <div className="qselect">Select an option</div>
       <div className="ques">
         <center><b>Why do you want to learn programming?</b></center></div> 

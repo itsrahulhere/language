@@ -16,11 +16,11 @@ function Q1O4() {
       <div className="ques">
         <center><b>How do you want to make money?</b></center></div> 
       <div className="options">
-      <div class="qsbtn" ><b>To get a job</b> </div>
-      <div class="qsbtn" ><b>I have a startup idea!</b> </div>
+      <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}}><b>To get a job</b> </div>
+      <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}}><b>I have a startup idea!</b> </div>
 
       </div>
-      <div class="backbtn float-left" ><b style={{color:"#FF4033"}}>Back</b> </div>
+      <div class="backbtn float-left" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}}><b style={{color:"#FF4033"}}>Back</b> </div>
       </div>
        </Col>
        </Row>

@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import cpp from './images/c++.svg';
 import Appright from '../Appright';
-import Q1O1N from './q1o1N';
+import Q1O1Y from './q1o1Y';
 import 'bootstrap/dist/css/bootstrap.min.css';
 class LangCPP extends Component {
   state = {
@@ -31,7 +31,7 @@ class LangCPP extends Component {
                 </div>
               </div>
               
-              <div class="backbtn float-left" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1N"})}} ><b style={{color:"#FF4033"}}>Back</b> </div>
+              <div class="backbtn float-left" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}} ><b style={{color:"#FF4033"}}>Back</b> </div>
               <div class="backbtn float-right" style={{right:"35px"}} onClick={ () => {this.setState({ whichComponentToShow: "Appright"})}} ><b style={{color:"#25B779"}}>Want to do it again</b> </div>
               
              </div>
@@ -46,10 +46,10 @@ class LangCPP extends Component {
         < Appright />
         </div>
     );}
-    if (this.state.whichComponentToShow === "Q1O1N") {
+    if (this.state.whichComponentToShow === "Q1O1Y") {
       return (
         <div className="main">
-          < Q1O1N />
+          < Q1O1Y />
           </div>
       );}
 

@@ -1,16 +1,17 @@
-import React,{Component} from 'react';
-import cpp from './images/c++.svg';
-import Appright from '../Appright';
-import Q1O1N from './q1o1N';
+import React, {Component} from 'react';
+import python from './images/python.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-class LangCPP extends Component {
+import Appright from '../Appright';
+
+import Q1O1YB from './q1o1YB';
+class LangPY extends Component {
   state = {
     visible: true,
-    whichComponentToShow: "LangCPP"
+    whichComponentToShow: "LangPY"
   };
 
   render() {
-    if (this.state.whichComponentToShow === "LangCPP") {
+    if (this.state.whichComponentToShow === "LangPY") {
       return (
       <div className="main">
     
@@ -21,39 +22,37 @@ class LangCPP extends Component {
                 <div class="layer">
                 </div>
                   <div class="content">
-                  <p className="langhead">CPP</p>
-                  <div class="image"><img src={cpp} alt={""}  /></div>
+                  <p className="langhead">PYTHON</p>
+                  <div class="image"><img src={python} alt={""}  /></div>
                   <div class="details">
-                  <h2><b>Widely used for developing games, industrail and performance-critical applicatons<br />
-                    <span>Learning C++ is like lerning how to drive a car</span></b></h2>
+                    <h2><b>Widely used in scientific, technical and academic field, i.e. Artifical Intelligence <br /><span>You can build website using Django, a popular Python web framework</span></b></h2>
                   </div>
                   </div>
                 </div>
               </div>
               
-              <div class="backbtn float-left" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1N"})}} ><b style={{color:"#FF4033"}}>Back</b> </div>
+              <div class="backbtn float-left" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1YB"})}}><b style={{color:"#FF4033"}}>Back</b> </div>
               <div class="backbtn float-right" style={{right:"35px"}} onClick={ () => {this.setState({ whichComponentToShow: "Appright"})}} ><b style={{color:"#25B779"}}>Want to do it again</b> </div>
               
              </div>
-        
+             
       <br />
       </div> 
     );
   }
+
   if (this.state.whichComponentToShow === "Appright") {
     return (
       <div className="main">
         < Appright />
         </div>
     );}
-    if (this.state.whichComponentToShow === "Q1O1N") {
+    if (this.state.whichComponentToShow === "Q1O1YB") {
       return (
         <div className="main">
-          < Q1O1N />
+          < Q1O1YB />
           </div>
       );}
-
-}}
-
-  export default LangCPP;
+}} 
+  export default LangPY;
   

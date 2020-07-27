@@ -25,8 +25,8 @@ function LangRUBY() {
                 </div>
               </div>
               
-              <div class="backbtn float-left" ><b style={{color:"#FF4033"}}>Back</b> </div>
-              <div class="backbtn float-right" style={{right:"35px"}} ><b style={{color:"#25B779"}}>Want to do it again</b> </div>
+              <div class="backbtn float-left" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}} ><b style={{color:"#FF4033"}}>Back</b> </div>
+              <div class="backbtn float-right" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}} style={{right:"35px"}} ><b style={{color:"#25B779"}}>Want to do it again</b> </div>
               
              </div>
              </Col>

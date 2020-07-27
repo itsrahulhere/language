@@ -13,10 +13,10 @@ function Q1O1YWB() {
       <div className="ques">
         <center><b>Backend</b></center></div> 
       <div className="options">
-      <div class="qsbtn" ><b>Work for a startup</b> </div>
-      <div class="qsbtn" ><b>Work for corporate</b> </div>
+      <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}}><b>Work for a startup</b> </div>
+      <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}}><b>Work for corporate</b> </div>
       </div>
-      <div class="backbtn float-left" ><b style={{color:"#FF4033"}}>Back</b> </div>
+      <div class="backbtn float-left" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}}><b style={{color:"#FF4033"}}>Back</b> </div>
       </div>
        </Col>
        </Row>

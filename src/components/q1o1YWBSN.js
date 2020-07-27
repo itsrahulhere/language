@@ -13,11 +13,11 @@ function Q1O1YWBSN() {
       <div className="ques">
         <center><b>Do you want to try something new with huge potential but less mature?</b></center></div> 
       <div className="options">
-      <div class="qsbtn" ><b style={{color:"#2dda66"}}>Yes</b> </div>
-      <div class="qsbtn" ><b style={{color:"#f5544e"}}>No</b> </div>
+      <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}}><b style={{color:"#2dda66"}}>Yes</b> </div>
+      <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}}><b style={{color:"#f5544e"}}>No</b> </div>
       
       </div>
-      <div class="backbtn float-left" ><b style={{color:"#FF4033"}}>Back</b> </div>
+      <div class="backbtn float-left" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1Y"})}}><b style={{color:"#FF4033"}}>Back</b> </div>
       </div>
        </Col>
        </Row>
