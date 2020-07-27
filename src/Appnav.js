@@ -12,7 +12,10 @@ function Appnav() {
                   <div class="wrapper float-left">
                     <span></span>
                   </div>
-                  <div className="navbtn float-right" ><b>Home</b></div>
+                  <div className="navbtn float-right" >
+                  <a href="http://localhost:3000/" >
+                    <b >Home</b></a>
+                    </div>
                   <div className="navbtn float-right"></div>
                  </Col>
              </Row>
