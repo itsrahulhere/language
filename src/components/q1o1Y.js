@@ -19,7 +19,7 @@ class Q1O1Y extends Component {
       
              <div className="qrightinside"> 
              <div className="qselect">Select an option</div>
-      <div className="ques">
+      <div className="quesq1">
         <center><b>Which platform / field?</b></center></div> 
       <div className="options">
       <div class="newqsbtn" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1YW"})}}><b>Web</b> </div>

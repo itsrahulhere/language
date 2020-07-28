@@ -23,7 +23,7 @@ class Q1O1YWBSNN extends Component {
       <div className="options">
       <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "LangPY"})}}><b>Lego</b> </div>
       <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "LangRUBY"})}}><b>Play-Doh</b> </div>
-      <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "LangPHP"})}}><b>I have an old and ugly toy but I love it so much</b> </div>
+      <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "LangPHP"})}}><b><center>I have an old and ugly toy but I love it so much </center></b> </div>
       </div>
       <div class="backbtn float-left" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1YWBSN"})}}><b style={{color:"#FF4033"}}>Back</b> </div>
       </div>

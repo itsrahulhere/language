@@ -118,7 +118,7 @@ body {
   bottom: 15px;
   width: fit-content;
   padding: 10px;
-  margin: 10px 15px 10px 25px;
+  margin: 10px 25px 60px 25px;
   border-radius: 15px;
   display: flex;
   cursor: pointer;
@@ -553,11 +553,44 @@ h1 {
            inset 2px 2px 8px rgba(0,0,0,0.15);
 }
 
-
 .ques{
   padding:20px;
   
   color:#3385ff;
+}
+.quesq1{
+  padding:0px;
+  
+  color:#3385ff;
+}
+.qsbtnq1{
+  background: #e8eff5;
+  color: #5c5c5c;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  
+  margin: 15px 35px 18px 35px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 400ms;
+  font-size: 15px;
+  box-shadow: 7px 7px 15px #bbcfda, -4px -4px 13px #fff,
+    inset 4px 4px 8px rgba(209, 217, 230, 0.2),
+    inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.qsbtnq1:hover {
+  box-shadow: 4px 2px 18px #bbcfda, -4px -4px 13px #fff,
+    inset 6px 6px 16px rgba(209, 217, 230, 0.8),
+    inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+  color:#00cdac;
+  transform: translateY(2px);
 }
 .qsbtn{
   background: #e8eff5;
@@ -595,7 +628,7 @@ h1 {
   width: auto;
   padding: 10px;
   
-  margin: 12px 35px 12px 35px;
+  margin: 12px 35px 15px 35px;
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -668,6 +701,9 @@ h1 {
 */
 .options{
   margin:5%;
+}
+.optionsq1{
+  margin:2px;
 }
 .btn {
   background: #e8eff5;

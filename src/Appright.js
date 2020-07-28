@@ -24,8 +24,7 @@ class Appright extends Component {
       <div className="main">
          
           
-             <div className="my">
-               <div className="myname">   
+    
                <div className="rightinside" style={{margin:"15px 0 0 0"}}> 
                 <center  style={{margin:"20px 0 0 0"}}> <b>
                    Which programming language should you learn?
@@ -48,8 +47,8 @@ class Appright extends Component {
                     <img src={swift} alt="" style={{right:"10%"}} />
                     </div>
                    </div>
-               </div>
-             </div>
+               
+           
            
    
       <br />

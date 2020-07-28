@@ -19,15 +19,15 @@ class Q1 extends Component {
       return (
       <div className="main">
        
-             <div className="rightinside"> 
+             <div className="qrightinside"> 
              <div className="qselect">Select an option</div>
-      <div className="ques">
+      <div className="quesq1">
         <center><b>Why do you want to learn programming?</b></center></div> 
       <div className="options">
-      <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1"})}}><b>For fun / Interested / Improve myself</b> </div>
-      <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "LangPY"})}}><b>I'm not sure. Pick for me</b> </div>
-      <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "LangPY"})}}><b>For my kids</b> </div>
-      <div class="qsbtn" onClick={ () => {this.setState({ whichComponentToShow: "Q1O4"})}}><b>To make money</b> </div>
+      <div class="qsbtnq1" onClick={ () => {this.setState({ whichComponentToShow: "Q1O1"})}}><b><center>For fun / Interested / Improve myself</center></b> </div>
+      <div class="qsbtnq1" onClick={ () => {this.setState({ whichComponentToShow: "LangPY"})}}><b>I'm not sure. Pick for me</b> </div>
+      <div class="qsbtnq1" onClick={ () => {this.setState({ whichComponentToShow: "LangPY"})}}><b>For my kids</b> </div>
+      <div class="qsbtnq1" onClick={ () => {this.setState({ whichComponentToShow: "Q1O4"})}}><b>To make money</b> </div>
       </div>
       <div class="backbtn float-left" onClick={ () => {this.setState({ whichComponentToShow: "Appright"})}} ><b style={{color:"#FF4033"}}>Back</b> </div>
       </div>
