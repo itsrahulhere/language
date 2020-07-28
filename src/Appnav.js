@@ -15,7 +15,7 @@ function Appnav() {
                   </Col>
                   <Col lg="2" md="2" xl="2" xs="12" sm="12">
                   <div className="navbtn float-right" >
-                  <a href="language" >
+                  <a href=" " >
                     <b >Home</b></a>
                     </div>
                   <div className="navbtn float-right"></div>
