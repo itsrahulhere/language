@@ -8,12 +8,14 @@ function Appnav() {
       <div className="main">
           <Container>
              <Row>
-                 <Col lg="12" md="12" xl="12" xs="12" sm="12">
+                 <Col lg="10" md="10" xl="10" xs="12" sm="12">
                   <div class="wrapper float-left">
                     <span></span>
                   </div>
+                  </Col>
+                  <Col lg="2" md="2" xl="2" xs="12" sm="12">
                   <div className="navbtn float-right" >
-                  <a href="http://localhost:3000/" >
+                  <a href="http://itsrahulhere.github.io/language/" >
                     <b >Home</b></a>
                     </div>
                   <div className="navbtn float-right"></div>
